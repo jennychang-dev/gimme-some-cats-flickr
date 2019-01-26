@@ -15,6 +15,9 @@
 		B2FC253821FA637D008C602E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC253721FA637D008C602E /* main.m */; };
 		B2FC254221FA637D008C602E /* Gimme_Some_CatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC254121FA637D008C602E /* Gimme_Some_CatsTests.m */; };
 		B2FC254D21FA637D008C602E /* Gimme_Some_CatsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC254C21FA637D008C602E /* Gimme_Some_CatsUITests.m */; };
+		B2FC255C21FA69B5008C602E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC255B21FA69B5008C602E /* Photo.m */; };
+		B2FC255F21FAA13D008C602E /* MyCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC255E21FAA13D008C602E /* MyCollectionView.m */; };
+		B2FC256221FAA87D008C602E /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC256121FAA87D008C602E /* MyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B2FC254821FA637D008C602E /* Gimme-Some-CatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gimme-Some-CatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FC254C21FA637D008C602E /* Gimme_Some_CatsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gimme_Some_CatsUITests.m; sourceTree = "<group>"; };
 		B2FC254E21FA637D008C602E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FC255A21FA69B5008C602E /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		B2FC255B21FA69B5008C602E /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		B2FC255D21FAA13D008C602E /* MyCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionView.h; sourceTree = "<group>"; };
+		B2FC255E21FAA13D008C602E /* MyCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionView.m; sourceTree = "<group>"; };
+		B2FC256021FAA87D008C602E /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		B2FC256121FAA87D008C602E /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +114,13 @@
 				B2FC252921FA637D008C602E /* AppDelegate.m */,
 				B2FC252B21FA637D008C602E /* ViewController.h */,
 				B2FC252C21FA637D008C602E /* ViewController.m */,
+				B2FC256021FAA87D008C602E /* MyCollectionViewCell.h */,
+				B2FC256121FAA87D008C602E /* MyCollectionViewCell.m */,
+				B2FC255A21FA69B5008C602E /* Photo.h */,
+				B2FC255B21FA69B5008C602E /* Photo.m */,
 				B2FC252E21FA637D008C602E /* Main.storyboard */,
+				B2FC255D21FAA13D008C602E /* MyCollectionView.h */,
+				B2FC255E21FAA13D008C602E /* MyCollectionView.m */,
 				B2FC253121FA637D008C602E /* Assets.xcassets */,
 				B2FC253321FA637D008C602E /* LaunchScreen.storyboard */,
 				B2FC253621FA637D008C602E /* Info.plist */,
@@ -262,6 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FC255F21FAA13D008C602E /* MyCollectionView.m in Sources */,
+				B2FC255C21FA69B5008C602E /* Photo.m in Sources */,
+				B2FC256221FAA87D008C602E /* MyCollectionViewCell.m in Sources */,
 				B2FC252D21FA637D008C602E /* ViewController.m in Sources */,
 				B2FC253821FA637D008C602E /* main.m in Sources */,
 				B2FC252A21FA637D008C602E /* AppDelegate.m in Sources */,
